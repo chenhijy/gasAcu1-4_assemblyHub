@@ -1,14 +1,1 @@
-track cytoBandIdeo
-longLabel gasAcu1-4 chromosome ideogram with cytogenetic bands
-shortLabel cytoBandIdeo
-bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_ideogram.bb
-type bigBed
-priority 1
 
-track GapTrack
-type bigBed 3
-bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4.gapTrack.bb
-shortLabel gasAcu1-4 gapTrack
-longLabel gasAcu1-4 assembly gaps
-visibility dense
-priority 1
