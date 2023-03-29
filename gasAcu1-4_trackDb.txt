@@ -353,7 +353,7 @@ priority 1000
 
 			track BEPA_sequenced_BAC_ends
 			type bigBed 4
-			bigDataUrl https://ndownloader.figshare.com/files/39681826
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_bepa_bacs.bb
 			parent scaffoldsAndBACs
 			shortLabel BEPA_sequenced_BAC_ends
 			longLabel Sequenced BEPA BAC ends
@@ -363,7 +363,7 @@ priority 1000
 
 			track scaffolds
 			type bigBed 4
-			bigDataUrl https://ndownloader.figshare.com/files/39681820
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_scaffolds.bb
 			parent scaffoldsAndBACs
 			shortLabel scaffolds
 			longLabel Assembly scaffolds
@@ -373,7 +373,7 @@ priority 1000
 
 			track fullySequencedBACs 
 			type bigBed 4
-			bigDataUrl https://ndownloader.figshare.com/files/39681817
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_bac_coords.bb
 			parent scaffoldsAndBACs
 			shortLabel BACs
 			longLabel Fully sequenced BACs
@@ -401,8 +401,8 @@ priority 1000
 			track gasAcu1-4liftToGasAcu1
 			type bigChain
 			parent chains
-			bigDataUrl https://ndownloader.figshare.com/files/39711067
-			linkDataUrl https://ndownloader.figshare.com/files/39711046
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4ToGasAcu1.over.bigChain.bb
+			linkDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4ToGasAcu1.over.bigChain.link.bb
 			shortLabel gasAcu1-4_liftTo_gasAcu1
 			longLabel gasAcu1-4 liftOver chain to gasAcu1
 			visibility hide
