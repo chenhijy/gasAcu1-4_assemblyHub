@@ -1,7 +1,7 @@
 track cytoBandIdeo
 longLabel gasAcu1-4 chromosome ideogram with cytogenetic bands
 shortLabel cytoBandIdeo
-bigDataUrl gasAcu1-4_ideogram.bb
+bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_ideogram.bb
 type bigBed
 priority 1
 
@@ -263,7 +263,7 @@ priority 40
 
 track phastConsEl
 type bigBed 5
-bigDataUrl repeatsAndVariation/gasAcu1-4.phastConsEl8way.bb
+bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4.phastConsEl8way.bb
 shortLabel phastConsEl
 longLabel 8way PhastCons Elements lifted from gasAcu1
 labelFields name
@@ -286,7 +286,8 @@ priority 50
 
 track 227genomes_variants
 type vcfTabix
-bigDataUrl repeatsAndVariation/227_genomes.final.filtered.vcf.gz
+bigDataUrl https://ndownloader.figshare.com/files/39717952
+bigDataIndex https://ndownloader.figshare.com/files/39717850
 shortLabel 227 Genomes Variants
 longLabel GATK-called variants from 227 stickleback genomes
 hapClusterColorBy refAlt
@@ -309,7 +310,7 @@ priority 70
 			track microsats
 			type bigBed 4
 			parent repeats on
-			bigDataUrl repeatsAndVariation/gasAcu1-4_microsat.bb 
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_microsat.bb 
 			shortLabel Microsatellites
 			longLabel Microsatellites identified by Repeat Masker, lifted from gasAcu1
 			priority 70
@@ -317,7 +318,7 @@ priority 70
 			track WM_SDust
 			type bigBed 3
 			parent repeats on
-			bigDataUrl repeatsAndVariation/gasAcu1-4_WM_SDust.bb
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_WM_SDust.bb
 			shortLabel WM SDust
 			longLabel WM SDust
 			priority 70
@@ -325,7 +326,7 @@ priority 70
 			track repeatMasker
 			type bigBed 3 +
 			parent repeats on
-			bigDataUrl repeatsAndVariation/gasAcu1-4_repeatMasker.bb
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_repeatMasker.bb
 			shortLabel Repeat Masker
 			longLabel Repeat Masker output lifted from gasAcu1
 			labelFields repName,swScore,repClass,repFamily
@@ -334,7 +335,7 @@ priority 70
 			track simpleReps
 			type bigBed 3 +
 			parent repeats on
-			bigDataUrl repeatsAndVariation/gasAcu1-4_simpleReps.bb
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_simpleReps.bb
 			shortLabel Simple Repeats
 			longLabel Simple repeats lifted from gasAcu1
 			labelFields repName,numRepeats
