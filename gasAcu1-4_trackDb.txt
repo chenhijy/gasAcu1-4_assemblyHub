@@ -1,7 +1,7 @@
 track cytoBandIdeo
 longLabel gasAcu1-4 chromosome ideogram with cytogenetic bands
 shortLabel cytoBandIdeo
-bigDataUrl https://ndownloader.figshare.com/files/39681634
+bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_ideogram.bb
 type bigBed
 visibility dense
 priority 1
