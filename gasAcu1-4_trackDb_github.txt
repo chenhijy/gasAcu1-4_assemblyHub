@@ -74,7 +74,7 @@ priority 30
 			parent RobertsKingman_et_al_peaks
 			shortLabel N.E. Pacific Z-scores
 			longLabel Z-scores for N.E. Pacific Basin extant population analysis (Roberts Kingman et al., bioRxiv, 2020)
-			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/RobertsKingman_et_al/c150.nonOverlappingWindows.z_scores.bw
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/c150.nonOverlappingWindows.z_scores.bw
 			graphTypeDefault bar
 			autoScale on
 			maxHeightPixels 128:50:20
@@ -85,7 +85,7 @@ priority 30
 			track pacSpecEcoPeaks
 			type bigBed 3+2
 			parent RobertsKingman_et_al_peaks 
-			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/RobertsKingman_et_al/gasAcu1-4.c150.specific.50kb.final.peaks.bb
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4.c150.specific.50kb.final.peaks.bb
 			shortLabel N.E. Pacific Specific EcoPeaks
 			longLabel N.E. Pacific Basin Specific EcoPeaks (Roberts Kingman et al., bioRxiv, 2020)
 			labelFields SNPbasedPvalue,windowBasedPvalue
@@ -99,7 +99,7 @@ priority 30
 			track pacSenEcoPeaks
 			type bigBed 3+2
 			parent RobertsKingman_et_al_peaks 
-			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/RobertsKingman_et_al/gasAcu1-4.c150.sensitive.50kb.final.peaks.bb
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4.c150.sensitive.50kb.final.peaks.bb
 			shortLabel N.E. Pacific Sensitive EcoPeaks
 			longLabel N.E. Pacific Basin Sensitive EcoPeaks (Roberts Kingman et al., bioRxiv, 2020)
 			labelFields SNPbasedPvalue,windowBasedPvalue
@@ -115,7 +115,7 @@ priority 30
 			parent RobertsKingman_et_al_peaks
 			shortLabel Global Z-scores
 			longLabel Z-scores for global extant population analysis (Roberts Kingman et al., bioRxiv, 2020)
-			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/RobertsKingman_et_al/c155.nonOverlappingWindows.z_scores.bw
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/c155.nonOverlappingWindows.z_scores.bw
 			graphTypeDefault bar
 			autoScale on
 			maxHeightPixels 128:50:20
@@ -126,7 +126,7 @@ priority 30
 			track gloSpecEcoPeaks
 			type bigBed 3+2
 			parent RobertsKingman_et_al_peaks 
-			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/RobertsKingman_et_al/gasAcu1-4.c155.specific.50kb.final.peaks.bb
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4.c155.specific.50kb.final.peaks.bb
 			shortLabel Global Specific EcoPeaks
 			longLabel Global Specific EcoPeaks (Roberts Kingman et al., bioRxiv, 2020)
 			labelFields SNPbasedPvalue,windowBasedPvalue
@@ -140,7 +140,7 @@ priority 30
 			track gloSenEcoPeaks
 			type bigBed 3+2
 			parent RobertsKingman_et_al_peaks 
-			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/RobertsKingman_et_al/gasAcu1-4.c155.sensitive.50kb.final.peaks.bb
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4.c155.sensitive.50kb.final.peaks.bb
 			shortLabel Global Sensitive EcoPeaks
 			longLabel Global Sensitive EcoPeaks (Roberts Kingman et al., bioRxiv, 2020)
 			labelFields SNPbasedPvalue,windowBasedPvalue
@@ -154,7 +154,7 @@ priority 30
 			track CH_SC_LB_specTempoPeaks
 			type bigBed 3+1
 			parent RobertsKingman_et_al_peaks 
-			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/RobertsKingman_et_al/CH_SC_LB.specific.final.bb
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/CH_SC_LB.specific.final.bb
 			shortLabel CH-SC-LB Specific TempoPeaks
 			longLabel Cheney-Scout-Loberg Specific TempoPeaks (Roberts Kingman et al., bioRxiv, 2020)
 			labelFields SNPbasedPvalue,windowBasedPvalue
@@ -167,7 +167,7 @@ priority 30
 			track CH_SC_LB_sensTempoPeaks
 			type bigBed 3+2
 			parent RobertsKingman_et_al_peaks 
-			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/RobertsKingman_et_al/CH_SC_LB.sensitive.final.bb
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/CH_SC_LB.sensitive.final.bb
 			shortLabel CH-SC-LB Sensitive TempoPeaks
 			longLabel Cheney-Scout-Loberg Sensitive TempoPeaks (Roberts Kingman et al., bioRxiv, 2020)
 			labelFields SNPbasedPvalue,windowBasedPvalue
@@ -182,7 +182,7 @@ priority 30
 			parent RobertsKingman_et_al_peaks
 			shortLabel CH-SC-LB CMH signal
 			longLabel Cheney-Scout-Loberg CMH -log10[raw p-Value] (Roberts Kingman et al., bioRxiv, 2020)
-			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/RobertsKingman_et_al/CH_SC_LB.CMH.nonOverlapping500bp_p.bw
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/CH_SC_LB.CMH.nonOverlapping500bp_p.bw
 			graphTypeDefault bar
 			autoScale on
 			maxHeightPixels 128:50:20
@@ -201,50 +201,13 @@ centerLabelsDense on
 visibility full
 priority 40
 
-			#track recombRate_LW
-			type bigWig 0 3.0
-			parent RecombinationRates
-			shortLabel Lake Washington Recombination Rate
-			longLabel Fine-scale recombination rate for Lake Washington sticklebacks (Shanfelter et al., GBE, 2019)
-			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_LW_recomb.2kb.bw
-			graphTypeDefault bar
-			autoScale on
-			maxHeightPixels 128:50:20
-			visibility full
-			priority 40
-
-			#track recombRate_PS
-			type bigWig 0 4
-			parent RecombinationRates
-			shortLabel Puget Sound Recombination Rate
-			longLabel Fine-scale recombination rate for Puget Sound sticklebacks (Shanfelter et al., GBE, 2019)
-			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_PS_recomb.2kb.bw
-			graphTypeDefault bar
-			autoScale on
-			maxHeightPixels 128:50:20
-			visibility full
-			priority 40
-
-
-			#track recombRate_RABS
-			type bigWig 0 500
-			parent RecombinationRates
-			shortLabel Rabbit Slough Recombination Rate
-			longLabel Recombination rate (cM/Mb) for Rabbit Slough sticklebacks (Roberts Kingman et al., bioRxiv, 2020)
-			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/RobertsKingman_et_al/gasAcu1-4.scaledRABSrecombRates.bw
-			graphTypeDefault bar
-			autoScale on
-			maxHeightPixels 128:50:20
-			visibility full
-			priority 40
-
 
 			track recombRate_log10RABS
 			type bigWig -6 6
 			parent RecombinationRates
 			shortLabel Rabbit Slough Recombination Rate
 			longLabel Recombination rate (log10[cM/Mb]) for Rabbit Slough sticklebacks (Roberts Kingman et al., bioRxiv, 2020)
-			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/RobertsKingman_et_al/gasAcu1-4.log10scaledRABSrecombRates.bw
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4.log10scaledRABSrecombRates.bw
 			graphTypeDefault bar
 			autoScale on
 			maxHeightPixels 128:50:20
@@ -255,7 +218,7 @@ priority 40
 
 			track recombHotSpotsRAB
 			type bigBed 3
-			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/RobertsKingman_et_al/gasAcu1-4.RS2009_hotspot_flank_20x_merge.bb
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4.RS2009_hotspot_flank_20x_merge.bb
 			shortLabel Rabbit Slough Recombination Hotspots
 			longLabel Rabbit Slough recombination hotspots [>20x local background rate] (Roberts Kingman et al., bioRxiv, 2020)
 			visibility dense
