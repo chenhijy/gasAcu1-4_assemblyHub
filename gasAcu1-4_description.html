@@ -9,13 +9,28 @@
 
 <p>Aside from these changes, the <a href="=https://doi.org/10.1093/jhered/esx058">Peichel et al. 2017</a> reference genome was not modified in any other ways.</p>
 
-<p><b><u><code>Liftover</code> chains.</b></u> <code>LiftOver</code> (<a href="https://doi.org/10.1093/nar/gkj144">Hinrichs et al. 2006</a>) chains (<a href="https://doi.org/10.1073/pnas.1932072100">Kent et al. 2003</a>) between <code>gasAcu1</code> and <code>gasAcu1-4</code> were generated from <code>BLAT</code> (<a href="https://doi.org/10.1101/gr.229202">Kent 2002</a>) alignments using the script <code><a href="https://github.com/ENCODE-DCC/kentUtils/blob/master/src/hg/utils/automation/doSameSpeciesLiftOver.pl">doSameSpeciesLiftOver.pl</a></code> as well as <code><a href="https://github.com/ucscGenomeBrowser/kent">Kent Utilities</a></code> following the procedure described here: <a href="http://genomewiki.ucsc.edu/index.php/DoSameSpeciesLiftOver.pl">http://genomewiki.ucsc.edu/index.php/DoSameSpeciesLiftOver.pl</a>.</p>
+<h3>Methods</h3>
+  
+<p>Please see the individual track description pages for details on the data within each track, or consult <a href="https://doi.org/10.1126/sciadv.abg5285">Roberts Kingman et al. 2021</a>.</p>
+  
+<!--<p><b><u><code>Liftover</code> chains.</b></u> <code>LiftOver</code> (<a href="https://doi.org/10.1093/nar/gkj144">Hinrichs et al. 2006</a>) chains (<a href="https://doi.org/10.1073/pnas.1932072100">Kent et al. 2003</a>) between <code>gasAcu1</code> and <code>gasAcu1-4</code> were generated from <code>BLAT</code> (<a href="https://doi.org/10.1101/gr.229202">Kent 2002</a>) alignments using the script <code><a href="https://github.com/ENCODE-DCC/kentUtils/blob/master/src/hg/utils/automation/doSameSpeciesLiftOver.pl">doSameSpeciesLiftOver.pl</a></code> as well as <code><a href="https://github.com/ucscGenomeBrowser/kent">Kent Utilities</a></code> following the procedure described here: <a href="http://genomewiki.ucsc.edu/index.php/DoSameSpeciesLiftOver.pl">http://genomewiki.ucsc.edu/index.php/DoSameSpeciesLiftOver.pl</a>.</p>
 
 <p><b><u>Gene Annotation.</b></u> Ensembl (<a href="https://doi.org/10.1093/database/baw093">Aken et al. 2016</a>) release 94 gene annotations for <code>gasAcu1</code> were downloaded via the UCSC Genome Browser and lifted to <code>gasAcu1-4</code> using all default <code>LiftOver</code> parameters.</p>
 
-<p><b><u>Major Quantitative Trait Loci.</b></u> In order to annotate our new genome build with quantitative trait loci (QTL), we began with all QTLs from the comprehensive 2017 review of all reported stickleback QTLs by <a href="https://doi.org/10.1098/rstb.2015.0486">Marques and Peichel</a>. We first filtered out results from stickleback species other than Gasterosteus aculeatus, and then for each reported interval lifted the coordinates from <code>gasAcu1</code> to <code>gasAcu1-4</code>. Finally, to create a set of well-bounded major QTL, we required each QTL to have PVE &gt; 20 and have a reported confidence interval &lt; 5Mb. All markers on chrP were assigned to the end of <code>chrVII</code>, where <em>Pitx1</em> physically resides. No filtering was performed on account of trait similarity within a cross or multiple crosses analyzing the same trait. This yielded 108 major QTLs. Some loci contain more overlapping QTL reports than visualized in <b>Fig. 1G</b> of <a href="https://doi.org/10.1126/sciadv.abg5285">Roberts Kingman et al. 2021</a>.</b></p>
+<p><b><u>Major Quantitative Trait Loci.</b></u> In order to annotate our new genome build with quantitative trait loci (QTL), we began with all QTLs from the comprehensive 2017 review of all reported stickleback QTLs by <a href="https://doi.org/10.1098/rstb.2015.0486">Marques and Peichel</a>. We first filtered out results from stickleback species other than Gasterosteus aculeatus, and then for each reported interval lifted the coordinates from <code>gasAcu1</code> to <code>gasAcu1-4</code>. Finally, to create a set of well-bounded major QTL, we required each QTL to have PVE &gt; 20 and have a reported confidence interval &lt; 5Mb. All markers on chrP were assigned to the end of <code>chrVII</code>, where <em>Pitx1</em> physically resides. No filtering was performed on account of trait similarity within a cross or multiple crosses analyzing the same trait. This yielded 108 major QTLs. Some loci contain more overlapping QTL reports than visualized in <b>Fig. 1G</b> of <a href="https://doi.org/10.1126/sciadv.abg5285">Roberts Kingman et al. 2021</a>.</b></p> -->
 
-<p><b><u>Acknowledgements.</b></u> We thank A. Hinrichs, H. Clawson, K. Smith, and D. Karolchik for contribution to the UCSC Stickleback Genome Browser annotations for <code>gasAcu1</code>, which were lifted to <code>gasAcu1-4</code> for this study.</p>
+<h3>Acknowledgements</h3>
+
+<p>We thank A. Hinrichs, H. Clawson, K. Smith, and D. Karolchik for contribution to the UCSC Stickleback Genome Browser annotations for <code>gasAcu1</code>, which were lifted to <code>gasAcu1-4</code> for this study.</p>
+
+<h3>Data Availability</h3>
+  
+<p>A copy of the files underlying this assembly hub can also be downloaded from <a href="https://figshare.com/projects/kingsleyAssemblyHub/162634">FigShare project # 162634</a>.</p>
+
+<h3>Contact</h3>
+  
+<p>Please email <a href="mailto:kingsley@stanford.edu">David Kingsley</a>, <a href="mailto:kingsley_lab@mailman.stanford.edu">the Kingsley Lab</a>, or <a href="mailto:krishna.Veeramah@stonybrook.edu">Krishna Veeramah</a> with questions about the hub or the associated manuscript (<a href="https://doi.org/10.1126/sciadv.abg5285">Roberts Kingman et al. 2021</a>.)</p>
+  
 
 -----
 
