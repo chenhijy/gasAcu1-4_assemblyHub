@@ -256,7 +256,7 @@ priority 40
 
 			track recombHotSpotsRAB
 			type bigBed 3
-			bigDataUrl https://ndownloader.figshare.com/files/39711340
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4.RS2009_hotspot_flank_20x_merge.bb
 			shortLabel Rabbit Slough Recombination Hotspots
 			longLabel Rabbit Slough recombination hotspots [>20x local background rate] (Roberts Kingman et al., Sci Adv , 2021)
 			visibility dense
@@ -275,7 +275,7 @@ priority 50
 
 track QTLs
 type bigBed 4
-bigDataUrl https://ndownloader.figshare.com/files/39711301
+bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4.qtls.all.bb
 shortLabel QTLs
 longLabel QTLs (Peichel and Marques, Phil. Trans. R. Soc., 2017)
 labelOnFeature on
