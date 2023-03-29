@@ -100,7 +100,7 @@ priority 30
 			track pacSenEcoPeaks
 			type bigBed 3+2
 			parent RobertsKingman_et_al_peaks 
-			bigDataUrl https://ndownloader.figshare.com/files/39711316
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4.c150.sensitive.50kb.final.peaks.bb
 			shortLabel N.E. Pacific Sensitive EcoPeaks
 			longLabel N.E. Pacific Basin Sensitive EcoPeaks (Roberts Kingman et al., Sci Adv , 2021)
 			labelFields SNPbasedPvalue,windowBasedPvalue
@@ -127,7 +127,7 @@ priority 30
 			track gloSpecEcoPeaks
 			type bigBed 3+2
 			parent RobertsKingman_et_al_peaks 
-			bigDataUrl https://ndownloader.figshare.com/files/39711337
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4.c155.specific.50kb.final.peaks.bb
 			shortLabel Global Specific EcoPeaks
 			longLabel Global Specific EcoPeaks (Roberts Kingman et al., Sci Adv , 2021)
 			labelFields SNPbasedPvalue,windowBasedPvalue
@@ -141,7 +141,7 @@ priority 30
 			track gloSenEcoPeaks
 			type bigBed 3+2
 			parent RobertsKingman_et_al_peaks 
-			bigDataUrl https://ndownloader.figshare.com/files/39711319
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4.c155.sensitive.50kb.final.peaks.bb
 			shortLabel Global Sensitive EcoPeaks
 			longLabel Global Sensitive EcoPeaks (Roberts Kingman et al., Sci Adv , 2021)
 			labelFields SNPbasedPvalue,windowBasedPvalue
@@ -155,7 +155,7 @@ priority 30
 			track CH_SC_LB_specTempoPeaks
 			type bigBed 3+1
 			parent RobertsKingman_et_al_peaks 
-			bigDataUrl https://ndownloader.figshare.com/files/39711328
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/CH_SC_LB.specific.final.bb
 			shortLabel CH-SC-LB Specific TempoPeaks
 			longLabel Cheney-Scout-Loberg Specific TempoPeaks (Roberts Kingman et al., Sci Adv , 2021)
 			labelFields SNPbasedPvalue,windowBasedPvalue
@@ -168,7 +168,7 @@ priority 30
 			track CH_SC_LB_sensTempoPeaks
 			type bigBed 3+2
 			parent RobertsKingman_et_al_peaks 
-			bigDataUrl https://ndownloader.figshare.com/files/39711352
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/CH_SC_LB.sensitive.final.bb
 			shortLabel CH-SC-LB Sensitive TempoPeaks
 			longLabel Cheney-Scout-Loberg Sensitive TempoPeaks (Roberts Kingman et al., Sci Adv , 2021)
 			labelFields SNPbasedPvalue,windowBasedPvalue
