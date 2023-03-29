@@ -57,7 +57,7 @@ priority 20
 			track CSS_0.05
 			parent Jones_et_al_2012
 			type bigBed 4
-			bigDataUrl https://ndownloader.figshare.com/files/39711298
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/CSS_05_FDR_gasAcu1-4.bb
 			shortLabel CSS_0.05
 			longLabel CSS 0.05 (Jones et al., Nature, 2012)
 			visibility pack
@@ -86,7 +86,7 @@ priority 30
 			track pacSpecEcoPeaks
 			type bigBed 3+2
 			parent RobertsKingman_et_al_peaks 
-			bigDataUrl https://ndownloader.figshare.com/files/39711343
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4.c150.specific.50kb.final.peaks.bb
 			shortLabel N.E. Pacific Specific EcoPeaks
 			longLabel N.E. Pacific Basin Specific EcoPeaks (Roberts Kingman et al., Sci Adv , 2021)
 			labelFields SNPbasedPvalue,windowBasedPvalue
