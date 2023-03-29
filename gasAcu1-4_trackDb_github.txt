@@ -1,0 +1,406 @@
+track cytoBandIdeo
+longLabel gasAcu1-4 chromosome ideogram with cytogenetic bands
+shortLabel cytoBandIdeo
+bigDataUrl gasAcu1-4_ideogram.bb
+type bigBed
+priority 1
+
+track GapTrack
+type bigBed 3
+bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4.gapTrack.bb
+shortLabel gasAcu1-4 gapTrack
+longLabel gasAcu1-4 assembly gaps
+visibility dense
+priority 1
+
+track genePredictions
+superTrack on show
+group genes
+shortLabel genes
+longLabel Genes and gene predictions lifted from gasAcu1
+priority 10
+
+			track ensemblGenes
+			type bigGenePred
+			parent genePredictions
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4.ensGene.bb 
+			shortLabel Ensembl genes
+			longLabel Ensembl genes provided by UCSC (Jan 2020), lifted from gasAcu1
+			defaultLabelFields geneSymbol,name
+			labelFields name,ensgID,geneDescription,geneSymbol,isoformName
+			searchIndex name,ensgID,geneDescription,geneSymbol,isoformName
+			searchTrix genes/gasAcu1-4.ensGene.ix
+			visibility dense
+			priority 10
+
+track Jones_et_al_2012 
+compositeTrack on
+type bigBed 4
+group Jones_et_al_2012
+shortLabel Jones_et_al_2012
+longLabel Freshwater-Marine CSS regions from Jones et al., Nature, 2012
+allButtonPair on
+centerLabelsDense on
+visibility dense
+priority 20
+
+			track CSS_0.02
+			parent Jones_et_al_2012
+			type bigBed 4
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/CSS_02_FDR_gasAcu1-4.bb
+			shortLabel CSS_0.02
+			longLabel CSS 0.02 (Jones et al., Nature, 2012)
+			visibility pack
+			priority 20
+
+			track CSS_0.05
+			parent Jones_et_al_2012
+			type bigBed 4
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/CSS_05_FDR_gasAcu1-4.bb
+			shortLabel CSS_0.05
+			longLabel CSS 0.05 (Jones et al., Nature, 2012)
+			visibility pack
+			priority 20
+
+track RobertsKingman_et_al_peaks 
+superTrack on show
+group RobertsKingman_et_al
+shortLabel RobertsKingman_et_al
+longLabel EcoPeaks and TempoPeaks from Roberts Kingman et al., bioRxiv, 2020
+priority 30
+
+			track pacZscores
+			type bigWig -2 33
+			parent RobertsKingman_et_al_peaks
+			shortLabel N.E. Pacific Z-scores
+			longLabel Z-scores for N.E. Pacific Basin extant population analysis (Roberts Kingman et al., bioRxiv, 2020)
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/RobertsKingman_et_al/c150.nonOverlappingWindows.z_scores.bw
+			graphTypeDefault bar
+			autoScale on
+			maxHeightPixels 128:50:20
+			visibility full
+			priority 30
+			color 0,100,76
+
+			track pacSpecEcoPeaks
+			type bigBed 3+2
+			parent RobertsKingman_et_al_peaks 
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/RobertsKingman_et_al/gasAcu1-4.c150.specific.50kb.final.peaks.bb
+			shortLabel N.E. Pacific Specific EcoPeaks
+			longLabel N.E. Pacific Basin Specific EcoPeaks (Roberts Kingman et al., bioRxiv, 2020)
+			labelFields SNPbasedPvalue,windowBasedPvalue
+			defaultLabelFields SNPbasedPvalue,windowBasedPvalue
+			mouseOverField SNPbasedPvalue,windowBasedPvalue
+			labelSeparator ; 
+			visibility dense
+			priority 31
+			color 0,100,76
+
+			track pacSenEcoPeaks
+			type bigBed 3+2
+			parent RobertsKingman_et_al_peaks 
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/RobertsKingman_et_al/gasAcu1-4.c150.sensitive.50kb.final.peaks.bb
+			shortLabel N.E. Pacific Sensitive EcoPeaks
+			longLabel N.E. Pacific Basin Sensitive EcoPeaks (Roberts Kingman et al., bioRxiv, 2020)
+			labelFields SNPbasedPvalue,windowBasedPvalue
+			defaultLabelFields SNPbasedPvalue,windowBasedPvalue
+			mouseOverField SNPbasedPvalue,windowBasedPvalue
+			labelSeparator ; 
+			visibility dense
+			priority 31
+			color 0,100,76
+
+			track globalZscores
+			type bigWig -2 33
+			parent RobertsKingman_et_al_peaks
+			shortLabel Global Z-scores
+			longLabel Z-scores for global extant population analysis (Roberts Kingman et al., bioRxiv, 2020)
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/RobertsKingman_et_al/c155.nonOverlappingWindows.z_scores.bw
+			graphTypeDefault bar
+			autoScale on
+			maxHeightPixels 128:50:20
+			visibility full
+			priority 36
+			color 200,100,0
+
+			track gloSpecEcoPeaks
+			type bigBed 3+2
+			parent RobertsKingman_et_al_peaks 
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/RobertsKingman_et_al/gasAcu1-4.c155.specific.50kb.final.peaks.bb
+			shortLabel Global Specific EcoPeaks
+			longLabel Global Specific EcoPeaks (Roberts Kingman et al., bioRxiv, 2020)
+			labelFields SNPbasedPvalue,windowBasedPvalue
+			defaultLabelFields SNPbasedPvalue,windowBasedPvalue
+			mouseOverField SNPbasedPvalue,windowBasedPvalue
+			labelSeparator ;
+			visibility dense
+			priority 37
+			color 200,100,0
+
+			track gloSenEcoPeaks
+			type bigBed 3+2
+			parent RobertsKingman_et_al_peaks 
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/RobertsKingman_et_al/gasAcu1-4.c155.sensitive.50kb.final.peaks.bb
+			shortLabel Global Sensitive EcoPeaks
+			longLabel Global Sensitive EcoPeaks (Roberts Kingman et al., bioRxiv, 2020)
+			labelFields SNPbasedPvalue,windowBasedPvalue
+			defaultLabelFields SNPbasedPvalue,windowBasedPvalue
+			mouseOverField SNPbasedPvalue,windowBasedPvalue
+			labelSeparator ;
+			visibility dense
+			priority 37
+			color 200,100,0
+
+			track CH_SC_LB_specTempoPeaks
+			type bigBed 3+1
+			parent RobertsKingman_et_al_peaks 
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/RobertsKingman_et_al/CH_SC_LB.specific.final.bb
+			shortLabel CH-SC-LB Specific TempoPeaks
+			longLabel Cheney-Scout-Loberg Specific TempoPeaks (Roberts Kingman et al., bioRxiv, 2020)
+			labelFields SNPbasedPvalue,windowBasedPvalue
+			mouseOverField SNPbasedPvalue,windowBasedPvalue
+			defaultLabelFields SNPbasedPvalue,windowBasedPvalue
+			visibility dense
+			priority 38
+			color 100,0,100
+
+			track CH_SC_LB_sensTempoPeaks
+			type bigBed 3+2
+			parent RobertsKingman_et_al_peaks 
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/RobertsKingman_et_al/CH_SC_LB.sensitive.final.bb
+			shortLabel CH-SC-LB Sensitive TempoPeaks
+			longLabel Cheney-Scout-Loberg Sensitive TempoPeaks (Roberts Kingman et al., bioRxiv, 2020)
+			labelFields SNPbasedPvalue,windowBasedPvalue
+			mouseOverField SNPbasedPvalue,windowBasedPvalue
+			defaultLabelFields SNPbasedPvalue,windowBasedPvalue
+			visibility dense
+			priority 38
+			color 100,0,100
+
+			track CH_SC_LB_CMH_pValues
+			type bigWig 0 44
+			parent RobertsKingman_et_al_peaks
+			shortLabel CH-SC-LB CMH signal
+			longLabel Cheney-Scout-Loberg CMH -log10[raw p-Value] (Roberts Kingman et al., bioRxiv, 2020)
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/RobertsKingman_et_al/CH_SC_LB.CMH.nonOverlapping500bp_p.bw
+			graphTypeDefault bar
+			autoScale on
+			maxHeightPixels 128:50:20
+			visibility full
+			priority 38
+			color 100,0,100
+
+track RecombinationRates 
+compositeTrack on
+type bigBed 4
+group RecombinationRates
+shortLabel RecombinationRates
+longLabel Recombination Rates
+allButtonPair on
+centerLabelsDense on
+visibility full
+priority 40
+
+			#track recombRate_LW
+			type bigWig 0 3.0
+			parent RecombinationRates
+			shortLabel Lake Washington Recombination Rate
+			longLabel Fine-scale recombination rate for Lake Washington sticklebacks (Shanfelter et al., GBE, 2019)
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_LW_recomb.2kb.bw
+			graphTypeDefault bar
+			autoScale on
+			maxHeightPixels 128:50:20
+			visibility full
+			priority 40
+
+			#track recombRate_PS
+			type bigWig 0 4
+			parent RecombinationRates
+			shortLabel Puget Sound Recombination Rate
+			longLabel Fine-scale recombination rate for Puget Sound sticklebacks (Shanfelter et al., GBE, 2019)
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_PS_recomb.2kb.bw
+			graphTypeDefault bar
+			autoScale on
+			maxHeightPixels 128:50:20
+			visibility full
+			priority 40
+
+
+			#track recombRate_RABS
+			type bigWig 0 500
+			parent RecombinationRates
+			shortLabel Rabbit Slough Recombination Rate
+			longLabel Recombination rate (cM/Mb) for Rabbit Slough sticklebacks (Roberts Kingman et al., bioRxiv, 2020)
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/RobertsKingman_et_al/gasAcu1-4.scaledRABSrecombRates.bw
+			graphTypeDefault bar
+			autoScale on
+			maxHeightPixels 128:50:20
+			visibility full
+			priority 40
+
+
+			track recombRate_log10RABS
+			type bigWig -6 6
+			parent RecombinationRates
+			shortLabel Rabbit Slough Recombination Rate
+			longLabel Recombination rate (log10[cM/Mb]) for Rabbit Slough sticklebacks (Roberts Kingman et al., bioRxiv, 2020)
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/RobertsKingman_et_al/gasAcu1-4.log10scaledRABSrecombRates.bw
+			graphTypeDefault bar
+			autoScale on
+			maxHeightPixels 128:50:20
+			visibility full
+			yLineMark 0
+			yLineOnOff on
+			priority 40
+
+			track recombHotSpotsRAB
+			type bigBed 3
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/RobertsKingman_et_al/gasAcu1-4.RS2009_hotspot_flank_20x_merge.bb
+			shortLabel Rabbit Slough Recombination Hotspots
+			longLabel Rabbit Slough recombination hotspots [>20x local background rate] (Roberts Kingman et al., bioRxiv, 2020)
+			visibility dense
+			priority 40
+
+track phastConsEl
+type bigBed 5
+bigDataUrl repeatsAndVariation/gasAcu1-4.phastConsEl8way.bb
+shortLabel phastConsEl
+longLabel 8way PhastCons Elements lifted from gasAcu1
+labelFields name
+spectrum on
+minGrayLevel 4
+visibility dense
+priority 50
+
+track QTLs
+type bigBed 4
+bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4.qtls.all.bb
+shortLabel QTLs
+longLabel QTLs (Peichel and Marques, Phil. Trans. R. Soc., 2017)
+labelOnFeature on
+labelFields trait,pctVarExplained,measurement,parents
+mouseOverField trait,pctVarExplained,measurement,parents
+defaultLabelFields trait,pctVarExplained,measurement
+visibility dense
+priority 50
+
+track 227genomes_variants
+type vcfTabix
+bigDataUrl repeatsAndVariation/227_genomes.final.filtered.vcf.gz
+shortLabel 227 Genomes Variants
+longLabel GATK-called variants from 227 stickleback genomes
+hapClusterColorBy refAlt
+hapClusterEnabled true
+hapClusterTreeAngle rectangle
+hapClusterHeight 400
+visibility hide
+priority 60
+
+track repeats
+compositeTrack on
+shortLabel repeats
+longLabel Repeats lifted from gasAcu1
+type bigBed
+visibility dense 
+allButtonPair on
+centerLabelsDense on
+priority 70
+
+			track microsats
+			type bigBed 4
+			parent repeats on
+			bigDataUrl repeatsAndVariation/gasAcu1-4_microsat.bb 
+			shortLabel Microsatellites
+			longLabel Microsatellites identified by Repeat Masker, lifted from gasAcu1
+			priority 70
+
+			track WM_SDust
+			type bigBed 3
+			parent repeats on
+			bigDataUrl repeatsAndVariation/gasAcu1-4_WM_SDust.bb
+			shortLabel WM SDust
+			longLabel WM SDust
+			priority 70
+
+			track repeatMasker
+			type bigBed 3 +
+			parent repeats on
+			bigDataUrl repeatsAndVariation/gasAcu1-4_repeatMasker.bb
+			shortLabel Repeat Masker
+			longLabel Repeat Masker output lifted from gasAcu1
+			labelFields repName,swScore,repClass,repFamily
+			priority 70
+
+			track simpleReps
+			type bigBed 3 +
+			parent repeats on
+			bigDataUrl repeatsAndVariation/gasAcu1-4_simpleReps.bb
+			shortLabel Simple Repeats
+			longLabel Simple repeats lifted from gasAcu1
+			labelFields repName,numRepeats
+			priority 70
+
+track scaffoldsAndBACs
+superTrack on hide
+group scaffoldsAndBACs
+shortLabel scaffoldsAndBACs
+longLabel Scaffolds and BACs
+priority 1000
+
+			track BEPA_sequenced_BAC_ends
+			type bigBed 4
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_bepa_bacs.bb
+			parent scaffoldsAndBACs
+			shortLabel BEPA_sequenced_BAC_ends
+			longLabel Sequenced BEPA BAC ends
+			labelOnFeature on
+			visibility pack
+			priority 1000
+
+			track scaffolds
+			type bigBed 4
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_scaffolds.bb
+			parent scaffoldsAndBACs
+			shortLabel scaffolds
+			longLabel Assembly scaffolds
+			labelOnFeature on
+			visibility pack
+			priority 1000
+
+			track fullySequencedBACs 
+			type bigBed 4
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_bac_coords.bb
+			parent scaffoldsAndBACs
+			shortLabel BACs
+			longLabel Fully sequenced BACs
+			labelOnFeature on
+			visibility pack
+			priority 1000
+
+track chains
+superTrack on hide
+group alignments
+shortLabel chains
+longLabel Alignment chains
+priority 1000
+
+
+			track gasAcu1-4liftToGasAcu1
+			type bigChain
+			parent chains
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4ToGasAcu1.over.bigChain.bb
+			linkDataUrl chains/gasAcu1-4ToGasAcu1.over.bigChain.link.bb
+			shortLabel gasAcu1-4_liftTo_gasAcu1
+			longLabel gasAcu1-4 liftOver chain to gasAcu1
+			visibility hide
+			priority 1000
+
+			#track gasAcu1-4_allChainsTo_gasAcu1
+			type bigChain
+			parent chains
+			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4.gasAcu1.all.bigChain.bb
+			linkDataUrl chains/gasAcu1-4.gasAcu1.all.bigChain.link.bb  
+			shortLabel gasAcu1-4_allChainsTo_gasAcu1
+			longLabel All lastz chains from gasAcu1-4 to gasAcu1
+			visbility hide
+			priority 1000

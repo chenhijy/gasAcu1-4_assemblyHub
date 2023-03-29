@@ -1,0 +1,6 @@
+genome gasAcu1-4
+trackDb bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_trackDb_github.txt
+twoBitPath https://web.stanford.edu/~hchen17/gasAcu1-4.2bit
+organism G. aculeatus (BEPA with SALR chrP) 
+description gasAcu1-4
+defaultPos chrIV:12357512-13277941
