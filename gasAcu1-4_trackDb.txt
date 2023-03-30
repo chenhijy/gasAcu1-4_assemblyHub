@@ -321,7 +321,7 @@ track repeats
 compositeTrack on
 shortLabel Repeats
 longLabel Repeats lifted from gasAcu1
-type bigBed
+type bigBed 3 +
 visibility dense 
 allButtonPair on
 centerLabelsDense on
@@ -344,7 +344,7 @@ priority 70
 			priority 70
 
 			track repeatMasker
-			type bigBed 3+5
+			type bigBed 3 +
 			parent repeats on
 			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_repeatMasker.bb
 			shortLabel Repeat Masker
@@ -353,7 +353,7 @@ priority 70
 			priority 70
 
 			track simpleReps
-			type bigBed 3+3
+			type bigBed 3 +
 			parent repeats on
 			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_simpleReps.bb
 			shortLabel Simple Repeats
