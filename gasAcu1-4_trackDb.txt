@@ -322,7 +322,7 @@ superTrack on show
 group repeats
 shortLabel Repeats
 longLabel Repeats lifted from gasAcu1
-type bigBed 3 +
+type bigBed
 visibility dense 
 priority 70
 html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/repeatDescription.html
@@ -355,6 +355,7 @@ html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/repea
 			shortLabel Repeat Masker
 			longLabel Repeat Masker output lifted from gasAcu1
 			labelFields repName,swScore,repClass,repFamily
+			defaultLabelFields repName,repClass
 			priority 70
 			html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/repeatDescription.html
 
@@ -365,6 +366,7 @@ html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/repea
 			shortLabel Simple Repeats
 			longLabel Simple repeats lifted from gasAcu1
 			labelFields repName,numRepeats
+			defaultLabelFields repName,numRepeats
 			priority 70
 			html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/repeatDescription.html
 
