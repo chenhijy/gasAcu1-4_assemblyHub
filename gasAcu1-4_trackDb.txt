@@ -215,6 +215,7 @@ allButtonPair on
 centerLabelsDense on
 visibility full
 priority 40
+html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/recombRateDescription.html
 
 			#track recombRate_LW
 			type bigWig 0 3.0
@@ -267,6 +268,7 @@ priority 40
 			yLineMark 0
 			yLineOnOff on
 			priority 40
+			html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/recombRateDescription.html
 
 			track recombHotSpotsRAB
 			parent RecombinationRates
@@ -276,6 +278,7 @@ priority 40
 			longLabel Rabbit Slough recombination hotspots [>20x local background rate] (Roberts Kingman et al., Sci Adv, 2021)
 			visibility dense
 			priority 40
+			html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/recombRateDescription.html
 
 track phastConsEl
 type bigBed 5
