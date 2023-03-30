@@ -317,6 +317,7 @@ hapClusterTreeAngle rectangle
 hapClusterHeight 400
 visibility hide
 priority 60
+html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/vcfDescription.html
 
 track repeats
 superTrack on show
