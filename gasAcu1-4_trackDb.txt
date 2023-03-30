@@ -290,6 +290,7 @@ spectrum on
 minGrayLevel 4
 visibility dense
 priority 50
+html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/consElDescription.html
 
 track QTLs
 type bigBed 4
