@@ -344,7 +344,7 @@ html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/repea
 			parent repeats
 			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_WM_SDust.bb
 			shortLabel WM SDust
-			longLabel WM SDust lifted from gasAcu1
+			longLabel WM SDust, lifted from gasAcu1
 			priority 70
 			html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/repeatDescription.html
 
@@ -353,7 +353,7 @@ html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/repea
 			parent repeats
 			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_repeatMasker.bb
 			shortLabel Repeat Masker
-			longLabel Repeat Masker output lifted from gasAcu1
+			longLabel Repeat Masker output, lifted from gasAcu1
 			labelFields repName,swScore,repClass,repFamily
 			defaultLabelFields repName,repClass
 			priority 70
@@ -364,7 +364,7 @@ html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/repea
 			parent repeats
 			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_simpleReps.bb
 			shortLabel Simple Repeats
-			longLabel Simple repeats lifted from gasAcu1
+			longLabel Simple repeats, lifted from gasAcu1
 			labelFields repName,numRepeats
 			defaultLabelFields repName,numRepeats
 			priority 70
