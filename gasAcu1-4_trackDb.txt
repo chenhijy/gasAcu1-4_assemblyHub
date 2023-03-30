@@ -9,9 +9,10 @@ priority 1
 track GapTrack
 type bigBed 3
 bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4.gapTrack.bb
-shortLabel gasAcu1-4 gapTrack
+shortLabel Gap Track
 longLabel gasAcu1-4 assembly gaps
 visibility dense
+html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4.gapTrack.description.html
 priority 1
 
 track genePredictions
