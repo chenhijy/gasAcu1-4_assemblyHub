@@ -318,18 +318,20 @@ visibility hide
 priority 60
 
 track repeats
-compositeTrack on
+superTrack on show
+group repeats
 shortLabel Repeats
 longLabel Repeats lifted from gasAcu1
 type bigBed 3 +
 visibility dense 
-allButtonPair on
-centerLabelsDense on
 priority 70
+#allButtonPair on
+#centerLabelsDense on
+
 
 			track microsats
 			type bigBed 4
-			parent repeats on
+			parent repeats
 			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_microsat.bb
 			shortLabel Microsatellites
 			longLabel Microsatellites identified by Repeat Masker, lifted from gasAcu1
@@ -337,7 +339,7 @@ priority 70
 
 			track WM_SDust
 			type bigBed 3
-			parent repeats on
+			parent repeats
 			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_WM_SDust.bb
 			shortLabel WM SDust
 			longLabel WM SDust
@@ -345,7 +347,7 @@ priority 70
 
 			track repeatMasker
 			type bigBed 3 +
-			parent repeats on
+			parent repeats
 			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_repeatMasker.bb
 			shortLabel Repeat Masker
 			longLabel Repeat Masker output lifted from gasAcu1
@@ -354,7 +356,7 @@ priority 70
 
 			track simpleReps
 			type bigBed 3 +
-			parent repeats on
+			parent repeats
 			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_simpleReps.bb
 			shortLabel Simple Repeats
 			longLabel Simple repeats lifted from gasAcu1
