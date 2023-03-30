@@ -15,7 +15,7 @@ visibility dense
 html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4.gapTrack.description.html
 priority 1
 
-track genePredictions
+#track genePredictions
 superTrack on show
 group genes
 shortLabel genes
@@ -24,9 +24,9 @@ priority 10
 
 			track ensemblGenes
 			type bigGenePred
-			parent genePredictions
+			#parent genePredictions
 			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4.ensGene.bb
-			shortLabel Ensembl genes
+			shortLabel Ensembl Genes
 			longLabel Ensembl genes provided by UCSC (Jan 2020), lifted from gasAcu1
 			defaultLabelFields geneSymbol,name
 			labelFields name,ensgID,geneDescription,geneSymbol,isoformName
