@@ -371,6 +371,7 @@ priority 1000
 			labelOnFeature on
 			visibility pack
 			priority 1000
+			html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/bepaBacDescription.html
 
 			track scaffolds
 			type bigBed 4
@@ -391,6 +392,7 @@ priority 1000
 			labelOnFeature on
 			visibility pack
 			priority 1000
+			html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/bepaBacDescription.html
 
 track chains
 superTrack on hide
