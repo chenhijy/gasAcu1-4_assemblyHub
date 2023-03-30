@@ -68,7 +68,7 @@ priority 20
 track RobertsKingman_et_al_peaks 
 superTrack on show
 group RobertsKingman_et_al
-shortLabel RobertsKingman_et_al
+shortLabel Roberts Kingman et al. 2021
 longLabel EcoPeaks and TempoPeaks from Roberts Kingman et al., Sci Adv, 2021
 priority 30
 
@@ -84,6 +84,7 @@ priority 30
 			visibility full
 			priority 30
 			color 0,100,76
+			html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/ecoPeakDescription.html
 
 			track pacSpecEcoPeaks
 			type bigBed 3+2
@@ -98,6 +99,7 @@ priority 30
 			visibility dense
 			priority 31
 			color 0,100,76
+			html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/ecoPeakDescription.html
 
 			track pacSenEcoPeaks
 			type bigBed 3+2
@@ -112,6 +114,7 @@ priority 30
 			visibility dense
 			priority 31
 			color 0,100,76
+			html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/ecoPeakDescription.html
 
 			track globalZscores
 			type bigWig -2 33
@@ -139,6 +142,7 @@ priority 30
 			visibility dense
 			priority 37
 			color 200,100,0
+			html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/ecoPeakDescription.html
 
 			track gloSenEcoPeaks
 			type bigBed 3+2
@@ -153,6 +157,7 @@ priority 30
 			visibility dense
 			priority 37
 			color 200,100,0
+			html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/ecoPeakDescription.html
 
 			track CH_SC_LB_specTempoPeaks
 			type bigBed 3+1
