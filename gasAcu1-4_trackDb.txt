@@ -33,6 +33,7 @@ priority 10
 			searchIndex name,ensgID,geneDescription,geneSymbol,isoformName
 			searchTrix https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4.ensGene.ix
 			visibility dense
+			html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4.ensGene.description.html
 			priority 10
 
 track Jones_et_al_2012 
