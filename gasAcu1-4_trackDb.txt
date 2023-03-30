@@ -369,6 +369,7 @@ group scaffoldsAndBACs
 shortLabel Scaffolds & BACs
 longLabel Assembly Scaffolds and BACs
 priority 1000
+html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/scaffoldBacLanding.html
 
 			track BEPA_sequenced_BAC_ends
 			type bigBed 4
@@ -390,6 +391,7 @@ priority 1000
 			labelOnFeature on
 			visibility pack
 			priority 1000
+			html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/scaffoldDescription.html
 
 			track fullySequencedBACs 
 			type bigBed 4
