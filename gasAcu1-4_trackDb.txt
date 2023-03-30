@@ -74,6 +74,7 @@ group RobertsKingman_et_al
 shortLabel Roberts Kingman et al. 2021
 longLabel EcoPeaks and TempoPeaks from Roberts Kingman et al., Sci Adv, 2021
 priority 30
+html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/robertsKingmanDescription.html
 
 			track pacZscores
 			type bigWig -2 33
