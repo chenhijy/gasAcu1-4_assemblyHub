@@ -46,6 +46,7 @@ allButtonPair on
 centerLabelsDense on
 visibility dense
 priority 20
+html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/cssDescription.html
 
 			track CSS_0.02
 			parent Jones_et_al_2012
@@ -55,6 +56,7 @@ priority 20
 			longLabel CSS 0.02 (Jones et al., Nature, 2012)
 			visibility pack
 			priority 20
+			html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/cssDescription.html
 
 			track CSS_0.05
 			parent Jones_et_al_2012
@@ -64,6 +66,7 @@ priority 20
 			longLabel CSS 0.05 (Jones et al., Nature, 2012)
 			visibility pack
 			priority 20
+			html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/cssDescription.html
 
 track RobertsKingman_et_al_peaks 
 superTrack on show
