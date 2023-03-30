@@ -1,6 +1,6 @@
 # gasAcu1-4_assemblyHub
 
-This repo serves files for the [`gasAcu1-4`](https://genome.ucsc.edu/s/hchen17/gasAcu1-4) Threespine Stickleback genome assembly hub
+This repo serves files for the [`gasAcu1-4`](https://genome.ucsc.edu/s/hchen17/gasAcu1-4) Threespine Stickleback genome assembly hub.
 
 ###  Related publications:
 
