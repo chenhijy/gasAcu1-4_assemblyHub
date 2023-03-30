@@ -275,7 +275,7 @@ priority 40
 track phastConsEl
 type bigBed 5
 bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4.phastConsEl8way.bb
-shortLabel phastConsEl
+shortLabel PhastCons elements
 longLabel 8way PhastCons Elements lifted from gasAcu1
 labelFields name
 spectrum on
@@ -311,7 +311,7 @@ priority 60
 
 track repeats
 compositeTrack on
-shortLabel repeats
+shortLabel Repeats
 longLabel Repeats lifted from gasAcu1
 type bigBed
 visibility dense 
@@ -358,15 +358,15 @@ priority 70
 track scaffoldsAndBACs
 superTrack on hide
 group scaffoldsAndBACs
-shortLabel scaffoldsAndBACs
-longLabel Scaffolds and BACs
+shortLabel Scaffolds & BACs
+longLabel Assembly Scaffolds and BACs
 priority 1000
 
 			track BEPA_sequenced_BAC_ends
 			type bigBed 4
 			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4_bepa_bacs.bb
 			parent scaffoldsAndBACs
-			shortLabel BEPA_sequenced_BAC_ends
+			shortLabel BEPA sequenced BAC ends
 			longLabel Sequenced BEPA BAC ends
 			labelOnFeature on
 			visibility pack
@@ -395,7 +395,7 @@ priority 1000
 track chains
 superTrack on hide
 group alignments
-shortLabel chains
+shortLabel liftOver chains
 longLabel Alignment chains
 priority 1000
 html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/liftOverChainDescription.html
