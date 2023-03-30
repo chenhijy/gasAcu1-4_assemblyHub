@@ -398,6 +398,7 @@ group alignments
 shortLabel chains
 longLabel Alignment chains
 priority 1000
+html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/liftOverChainDescription.html
 
 			#track gasAcu1-4liftToGasAcu2RABS
 			type bigChain
@@ -418,7 +419,7 @@ priority 1000
 			longLabel gasAcu1-4 liftOver chain to gasAcu1
 			visibility hide
 			priority 1000
-			html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/liftOverDescription.html
+			html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/liftOverChainDescription.html
 
 			track gasAcu1-4_allChainsTo_gasAcu1
 			type bigChain
@@ -429,4 +430,4 @@ priority 1000
 			longLabel All lastz chains from gasAcu1-4 to gasAcu1
 			visbility hide
 			priority 1000
-			html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/liftOverDescription.html
+			html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/liftOverChainDescription.html
