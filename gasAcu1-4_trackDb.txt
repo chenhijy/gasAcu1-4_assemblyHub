@@ -269,6 +269,7 @@ priority 40
 			priority 40
 
 			track recombHotSpotsRAB
+			parent RecombinationRates
 			type bigBed 3
 			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4.RS2009_hotspot_flank_20x_merge.bb
 			shortLabel Rabbit Slough Recombination Hotspots
