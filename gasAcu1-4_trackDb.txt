@@ -439,7 +439,7 @@ html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/liftO
 			linkDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/gasAcu1-4ToGasAcu1.over.bigChain.link.bb
 			shortLabel gasAcu1-4_liftTo_gasAcu1
 			longLabel gasAcu1-4 liftOver chain to gasAcu1
-			visibility hide
+			visibility squish
 			priority 1000
 			html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/liftOverChainDescription.html
 
@@ -450,6 +450,6 @@ html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/liftO
 			linkDataUrl https://ndownloader.figshare.com/files/39711064
 			shortLabel gasAcu1-4_allChainsTo_gasAcu1
 			longLabel All lastz chains from gasAcu1-4 to gasAcu1
-			visbility hide
+			visbility dense
 			priority 1000
 			html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/liftOverChainDescription.html
