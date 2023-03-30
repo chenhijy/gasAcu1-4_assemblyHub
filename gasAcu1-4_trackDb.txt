@@ -40,7 +40,7 @@ track Jones_et_al_2012
 compositeTrack on
 type bigBed 4
 group Jones_et_al_2012
-shortLabel Jones_et_al_2012
+shortLabel Jones et al. 2012
 longLabel Freshwater-Marine CSS regions from Jones et al., Nature, 2012
 allButtonPair on
 centerLabelsDense on
@@ -51,7 +51,7 @@ priority 20
 			parent Jones_et_al_2012
 			type bigBed 4
 			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/CSS_02_FDR_gasAcu1-4.bb
-			shortLabel CSS_0.02
+			shortLabel CSS 0.02
 			longLabel CSS 0.02 (Jones et al., Nature, 2012)
 			visibility pack
 			priority 20
@@ -60,7 +60,7 @@ priority 20
 			parent Jones_et_al_2012
 			type bigBed 4
 			bigDataUrl https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/CSS_05_FDR_gasAcu1-4.bb
-			shortLabel CSS_0.05
+			shortLabel CSS 0.05
 			longLabel CSS 0.05 (Jones et al., Nature, 2012)
 			visibility pack
 			priority 20
@@ -171,6 +171,7 @@ priority 30
 			visibility dense
 			priority 38
 			color 100,0,100
+			html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/tempoPeakDescription.html
 
 			track CH_SC_LB_sensTempoPeaks
 			type bigBed 3+2
@@ -184,6 +185,7 @@ priority 30
 			visibility dense
 			priority 38
 			color 100,0,100
+			html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/tempoPeakDescription.html
 
 			track CH_SC_LB_CMH_pValues
 			type bigWig 0 44
@@ -197,6 +199,7 @@ priority 30
 			visibility full
 			priority 38
 			color 100,0,100
+			html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/tempoPeakDescription.html
 
 track RecombinationRates 
 compositeTrack on
