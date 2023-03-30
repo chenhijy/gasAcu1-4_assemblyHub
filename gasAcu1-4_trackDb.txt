@@ -209,7 +209,7 @@ track RecombinationRates
 compositeTrack on
 type bigBed 4
 group RecombinationRates
-shortLabel RecombinationRates
+shortLabel Recombination Rates
 longLabel Recombination Rates
 allButtonPair on
 centerLabelsDense on
