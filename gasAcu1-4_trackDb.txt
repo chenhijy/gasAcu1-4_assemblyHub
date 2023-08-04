@@ -447,8 +447,8 @@ html https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/liftO
 			track gasAcu1-4_allChainsTo_gasAcu1
 			type bigChain
 			parent chains
-			bigDataUrl https://ndownloader.figshare.com/files/39711043
-			linkDataUrl https://ndownloader.figshare.com/files/39711064
+			bigDataUrl https://web.stanford.edu/group/kingsley/gasAcu1-4.gasAcu1.all.bigChain.bb
+			linkDataUrl https://web.stanford.edu/group/kingsley/gasAcu1-4.gasAcu1.all.bigChain.link.bb
 			shortLabel gasAcu1-4_allChainsTo_gasAcu1
 			longLabel All lastz chains from gasAcu1-4 to gasAcu1
 			visbility dense
