@@ -3,4 +3,4 @@ shortLabel kingsleyAssemblyHub
 longLabel Kingsley Lab Assembly Hub
 genomesFile https://raw.githubusercontent.com/chenhijy/gasAcu1-4_assemblyHub/main/genomes.txt
 email kingsley_lab{at}mailman.stanford.edu, kingsley{at}stanford.edu, chenhijy{at}gmail.com
-descriptionUrl https://web.stanford.edu/~hchen17/hubDescription.html
+descriptionUrl https://web.stanford.edu/group/kingsley/hubDescription.html
